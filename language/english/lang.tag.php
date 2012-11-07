@@ -474,7 +474,7 @@ $lang = $L = array(
 "tag_module_allow_tag_creation_publish_subtext" =>
 "If set to 'No', then no NEW tags can be created via the Publish area, either via a Publish tab
 or a Tag Custom Channel Field.  Only existing tags can be submitted for an entry.  This allows
-an Administrator to control the tags allowed for entires.",
+an Administrator to control the tags allowed for entries.",
 
 "tag_module_publish_entry_tag_limit" =>
 "Maximum Tags Allowed per Entry in Publish Tab",
@@ -503,10 +503,10 @@ an Administrator to control the tags allowed for entires.",
 "tag_harvest_field_subtext" =>
 "If you wish to use the Tag Harvest Tool at any point: any text values in this custom field will be converted into proper Tag module tags upon submission of the Harvest Tool. This respects the Tag Separator preference.",
 
-"preferences_for_site" => 
+"preferences_for_site" =>
 "Preferences For Site",
 
-"preferences_for_" => 
+"preferences_for_" =>
 "Preferences For",
 
 "publish_tab_label" =>
@@ -519,12 +519,12 @@ an Administrator to control the tags allowed for entires.",
 "Leave the field blank to disable the Tag module's Publish tab for a given channel.",
 
 "publish_tab_label_deprecated" =>
-"Did you know that Tag is now a field type? It is the recommened way to use it in the publish area. This publish tab label is deprecated, but left in for legacy use.",
+"Did you know that Tag is now a field type? It is the recommended way to use it in the publish area. This publish tab label is deprecated, but left in for legacy use.",
 
 'choose_custom_field' =>
 "Choose Custom Field",
 
-//--------------------------------------------  
+//--------------------------------------------
 //	tag groups
 //--------------------------------------------
 
@@ -534,7 +534,7 @@ an Administrator to control the tags allowed for entires.",
 'view_tags_in_all_groups' =>
 "View Tags In All Groups",
 
-'undefined_tag_group' => 
+'undefined_tag_group' =>
 "Undefined Tag Group",
 
 'tag_groups' =>
@@ -574,7 +574,7 @@ an Administrator to control the tags allowed for entires.",
 "Short Name",
 
 'tag_group_subtext' =>
-"Tag groups allow the usage of more than one tag field per Channel. New tag group names can only have letters, numbers and underscores",
+"Tag groups allow the usage of more than one tag field per Channel. New tag group names can only have letters, numbers and underscores.",
 
 "tag_group_name_taken" =>
 "The tag group name you have entered has the same short name as another tag group that already exists. Please choose another tag group name.",
@@ -651,10 +651,10 @@ an Administrator to control the tags allowed for entires.",
 'all_groups' =>
 "All Groups",
 
-'top_tag_limit' => 
+'top_tag_limit' =>
 "Top Tags Limit",
 
-'top_tag_limit_subtext' => 
+'top_tag_limit_subtext' =>
 "Limit the amount of Top Tags shown.",
 
 //----------------------------------------
@@ -668,8 +668,8 @@ an Administrator to control the tags allowed for entires.",
 "Harvest tags from pre-existing fields.",
 
 "tag_harvest_instructions" =>
-"You can harvest data from your site either by mapping categories into tags or by turning the 
-contents of a custom weblog field into Tags. In either case, entries will be assigned to the Tags 
+"You can harvest data from your site either by mapping categories into tags or by turning the
+contents of a custom weblog field into Tags. In either case, entries will be assigned to the Tags
 harvested as appropriate.",
 
 "categories" =>
@@ -887,8 +887,8 @@ Only necessary if you previously used the Tag module's Publish tab.",
 "There was a tag parsing error.",
 
 'tag_module_disabled' =>
-"The Tag module is currently disabled.  Please insure it is installed and up to date by going 
-to the module's control panel in the ExpressionEngine Control Panel",
+"The Tag module is currently disabled. Please insure it is installed and up to date by going
+to the module's control panel in the ExpressionEngine Control Panel.",
 
 'disable_module_to_disable_extension' =>
 "To disable this extension, you must disable its corresponding <a href='%url%'>module</a>.",
@@ -916,7 +916,7 @@ to the module's control panel in the ExpressionEngine Control Panel",
 "You have recently uploaded a new version of User, please click here to run the update script.",
 
 "upgrade_message" =>
-"It looks like you have installed a new version of Tag. We recommend that you run the upgrade script",
+"It looks like you have installed a new version of Tag. We recommend that you run the upgrade script.",
 
 "update_successful" =>
 "The module was successfully updated.",
