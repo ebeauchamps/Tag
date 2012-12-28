@@ -1,14 +1,15 @@
 ﻿<?php
 
  /**
- * Solspace - Tag
+ * Tag-Language
  *
  * @package		Solspace:Tag
- * @author		Solspace DevTeam
- * @copyright	Copyright (c) 2008-2012, Solspace, Inc.
- * @link		http://solspace.com/docs/addon/c/Tag/
- * @version		4.1.1
- * @filesource 	./system/expressionengine/third_party/tag/language/english/
+ * @author		Solspace, Inc.
+ * @copyright	Copyright (c) 2008-2013, Solspace, Inc.
+ * @link		http://solspace.com/docs/tag
+ * @license http://www/solspace.com/license_agreement
+ * @version		4.2.0
+ * @filesource 	./system/expressionengine/third_party/tag/language/french/
  */
 
 $lang = $L = array(
