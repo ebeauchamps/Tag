@@ -1,15 +1,15 @@
 ﻿<?php
 
- /**
- * Tag-Language
+/**
+ * Tag - Language
  *
  * @package		Solspace:Tag
  * @author		Solspace, Inc.
  * @copyright	Copyright (c) 2008-2013, Solspace, Inc.
  * @link		http://solspace.com/docs/tag
- * @license http://www/solspace.com/license_agreement
+ * @license		http://www.solspace.com/license_agreement
  * @version		4.2.0
- * @filesource 	./system/expressionengine/third_party/tag/language/french/
+ * @filesource	tag/language/french/lang.tag.php
  */
 
 $lang = $L = array(
