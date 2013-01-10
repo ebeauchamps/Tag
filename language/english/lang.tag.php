@@ -475,7 +475,7 @@ $lang = $L = array(
 "tag_module_allow_tag_creation_publish_subtext" =>
 "If set to 'No', then no NEW tags can be created via the Publish area, either via a Publish tab
 or a Tag Custom Channel Field.  Only existing tags can be submitted for an entry.  This allows
-an Administrator to control the tags allowed for entires.",
+an Administrator to control the tags allowed for entries.",
 
 "tag_module_publish_entry_tag_limit" =>
 "Maximum Tags Allowed per Entry in Publish Tab",

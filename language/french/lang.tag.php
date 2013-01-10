@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /**
  * Tag - Language
@@ -25,7 +25,7 @@ $lang = $L = array(
 "Un outil relationnel intuitif",
 
 "tag_module_version" =>
-"Étiquette",
+"Tag / Étiquette",
 
 
 //----------------------------------------
@@ -69,28 +69,28 @@ $lang = $L = array(
 "Étiquettes",
 
 "top_tags" =>
-"Top Étiquettes",
+"Top étiquettes",
 
 "add_tags" =>
 "Ajouter des étiquettes",
 
 "total_weblog_entries_tagged" =>
-"Nombre total d'entrées de blog étiqueté",
+"Nombre total d'articles de blog étiquetés",
 
 "percent_weblog_entries_tagged" =>
-"Pourcentage des entrées de blog étiqueté",
+"Pourcentage des articles de blog étiquetés",
 
 "total_channel_entries_tagged" =>
-"Nombre total d'entrées de canal étiqueté",
+"Nombre total d'articles de canal étiquetés",
 
 "percent_channel_entries_tagged" =>
-"Pourcentage des entrées de canal étiqueté",
+"Pourcentage des articles de canal étiquetés",
 
 "total_gallery_entries_tagged" =>
-"Nombre total d'entrées de galerie étiqueté",
+"Nombre total d'articles de galerie étiquetés",
 
 "percent_gallery_entries_tagged" =>
-"Pourcentage des entrées de galerie étiqueté",
+"Pourcentage des articles de galerie étiquetés",
 
 "top_five_tags" =>
 "Cinq premières étiquettes",
@@ -102,7 +102,7 @@ $lang = $L = array(
 "Toutes les étiquettes",
 
 "harvest_description" =>
-"Cet outil récoltera automatiquement pour vous les étiquettes à partir d'un champ de blog/canal initialement utilisé pour l'étiquetage ou pour stocker des mots clefs. Ceci permettra de créer des étiquettes à partir de chaque mot et de les séparer par des espaces. Il n'est pas recommandé que vous utilisiez cette fonctionnalité sur des champs qui contiennent des phrases entières (comme les champs Corps, Résumé ou Titre) car vous créerez alors une étiquette pour chaque mot !",
+"Cet outil récoltera automatiquement pour vous les étiquettes à partir d'un champ de canal initialement utilisé pour l'étiquetage ou pour stocker des mots clefs. Ceci permettra de créer des étiquettes à partir de chaque mot et de les séparer par des espaces. Il n'est pas recommandé que vous utilisiez cette fonctionnalité sur des champs qui contiennent des phrases entières (comme les champs Corps, Résumé ou Titre) car vous créeriez alors une étiquette pour chaque mot !",
 
 //----------------------------------------
 //	Language for tag list
@@ -127,13 +127,13 @@ $lang = $L = array(
 "Auteur",
 
 "screen_name" =>
-"Pseudonyme",
+"Pseudo",
 
 "entered_date" =>
 "Date saisie",
 
 "entry_date" =>
-"Date de l'entrée",
+"Date de l'article",
 
 "edit_date" =>
 "Dernière date d'édition",
@@ -160,41 +160,41 @@ $lang = $L = array(
 //----------------------------------------
 
 'entry_title' =>
-"Titre de l'entrée",
+"Titre de l'article",
 
 'entry_id' =>
-"ID de l'entrée",
+"ID de l'article",
 
 
 "edit_entries_for_" =>
-"Éditer les entrées pour ",
+"Éditer les articles pour ",
 
 "weblog_entries_by_tag" =>
-"Entrées de blog par étiquette",
+"Articles de blog par étiquette",
 
 "channel_entries_by_tag" =>
-"Entrées de canal par étiquette",
+"Articles de canal par étiquette",
 
 "gallery_entries_by_tag" =>
-"Entrées de galerie par étiquette",
+"Articles de galerie par étiquette",
 
 "weblog_entries_by_tag_name" =>
-"Entrées de blog pour \"%tag_name%\"",
+"Articles de blog pour \"%tag_name%\"",
 
 "channel_entries_by_tag_name" =>
-"Entrées de canal pour \"%tag_name%\"",
+"Articles de canal pour \"%tag_name%\"",
 
 "gallery_entries_by_tag_name" =>
-"Entrées de galerie pour \"%tag_name%\"",
+"Articles de galerie pour \"%tag_name%\"",
 
 "view_gallery_entries_for_tag" =>
-"Voir les entrées de galerie pour cette étiquette.",
+"Voir les articles de galerie pour cette étiquette.",
 
 "view_weblog_entries_for_tag" =>
-"Voir les entrées de blog pour cette étiquette.",
+"Voir les articles de blog pour cette étiquette.",
 
 "view_channel_entries_for_tag" =>
-"Voir les entrées de canal pour cette étiquette.",
+"Voir les articles de canal pour cette étiquette.",
 
 "title" =>
 "Titre",
@@ -203,7 +203,7 @@ $lang = $L = array(
 "Galerie",
 
 "no_entries_found" =>
-"Il n'y a actuellement aucune entrée pour cette étiquette.",
+"Il n'y a actuellement aucun article pour cette étiquette.",
 
 //----------------------------------------
 //	Language for browse tags
@@ -235,16 +235,16 @@ $lang = $L = array(
 "Mettre à jour les étiquettes",
 
 'tag_entries' =>
-"Entrées",
+"Articles",
 
 'tag_view_entries' =>
-"Voir les entrées",
+"Voir les articles",
 
 "tag_exists" =>
 "L'étiquette %tag_name% a déjà été ajoutée.",
 
 "tags_combined" =>
-"Toutes les entrées possédant l'étiquette '%old_tag_name%' ont été ré-étiquetées '%new_tag_name%' avec succès.",
+"Tous les articles possédant l'étiquette '%old_tag_name%' ont été ré-étiquetés '%new_tag_name%' avec succès.",
 
 "tag_updated" =>
 "Votre étiquette a été mise à jour.",
@@ -260,7 +260,7 @@ $lang = $L = array(
 "Mauvaises étiquettes",
 
 "tag_mark_as_bad_" =>
-"Marqué l'étiquette comme étant mauvaise ",
+"Marquer l'étiquette comme étant mauvaise ",
 
 "bad_tag_explanation_long" =>
 "Les mauvaises étiquettes correspondent à des mots, mis en liste noir, que vous ne souhaitez pas voir soumis au système.",
@@ -332,7 +332,7 @@ $lang = $L = array(
 "Confirmation de sortie de la liste des mauvaises étiquettes",
 
 "bad_tag_delete_question" =>
-"Êtes-vous certain de vouloir sortir %i% %tags% de la liste des mauvaises étiquettes ?",
+"Êtes-vous certain de vouloir sortir %i% étiquette(s) (%tags%) de la liste des mauvaises étiquettes ?",
 
 "action_can_not_be_undone" =>
 "Cette action ne peut pas être annulée.",
@@ -354,16 +354,16 @@ $lang = $L = array(
 "Mettre à jour le champ d'étiquette",
 
 'update_tag_field_purpose' =>
-"Ceci mettra à jour via AJAX les étiquettes de chaque entrée et vous préviendra une fois toutes les entrées traitées. Cliquer sur 'Synchoniser les champs d'étiquette' pour démarrer.",
+"Ceci mettra à jour via AJAX les étiquettes de chaque article et vous préviendra une fois tous les articles traités. Cliquer sur 'Synchoniser les champs d'étiquette' pour démarrer.",
 
 'update_all_tag_counts' =>
 "Mettre à jour les compteurs pour Toutes les étiquettes",
 
 "updating_tag_fields_for_entry_" =>
-"En cours de mise à jour des champs d'étiquette pour l'entrée : ",
+"En cours de mise à jour des champs d'étiquette pour l'article : ",
 
 'number_of_entries_updated' =>
-"Nombre d'entrées mises à jour",
+"Nombre d'articles mis à jour",
 
 'tag_fields_complete' =>
 "Tous les champs d'étiquette ont été traités.",
@@ -385,7 +385,7 @@ $lang = $L = array(
 "Mettre à jour les compteurs d'étiquette",
 
 'update_tag_count_from_upgrade_notice' =>
-"La mise à jour 4.1.0 du module introduit le principe des compteurs de groupe d'étiquette et doit donc mettre à jour le compteur du nombre total d'entrée pour chacune des étiquettes.",
+"La mise à jour 4.1.0 du module introduit le principe des compteurs de groupe d'étiquette et doit donc mettre à jour le compteur du nombre total d'article pour chacune des étiquettes.",
 
 'update_tag_count_purpose' =>
 "Ceci mettra à jour les compteurs d'étiquette un par un via AJAX et vous préviendra une fois que toutes les étiquettes seront recomptées. Cliquer sur 'Mettre à jour tous les compteurs d'étiquette' pour démarrer.",
@@ -437,7 +437,7 @@ $lang = $L = array(
 "Préférences de site",
 
 "site_preferences_for_" =>
-"Préférences de site pour",
+"Préférences de site pour ",
 
 'channel_preferences' =>
 "Préférences de canal",
@@ -446,7 +446,7 @@ $lang = $L = array(
 "Préférences de blog",
 
 'channel_preferences_for_' =>
-"Préférences de canal pour",
+"Préférences de canal pour ",
 
 'weblog_preferences_for_' =>
 "Préférences de blog pour",
@@ -464,27 +464,27 @@ $lang = $L = array(
 "Séparateur d'étiquette",
 
 'tag_module_separator_subtext' =>
-"Ceci est utilisé en frontal lors de l'analyse syntaxique des termes de recherche des étiquettes ou des saisies d'étiquette personnalisée pour les formulaires de saisie autonomes (SAEF).",
+"Ceci est utilisé en frontal lors de l'analyse syntaxique des termes de recherche des étiquettes ou des saisies d'étiquettes personnalisées pour les formulaires de saisie autonomes (SAEF).",
 
 "tag_module_convert_case" =>
-"Convertir toutes les étiquettes en minuscules",
+"Convertir toutes les étiquettes en minuscules ?",
 
 "tag_module_allow_tag_creation_publish" =>
-"Autoriser la création d'une nouvelle étiquette via l'onglet de Publication",
+"Autoriser la création d'une nouvelle étiquette via l'onglet CONTENU : Publier ?",
 
 "tag_module_allow_tag_creation_publish_subtext" =>
-"Si le choix est à 'Non', aucune NOUVELLE étiquette ne pourra être créée dans l'espace de
-publication, ni via l'onglet de Publication ou encore un champ de canal personnalisé 'étiquette'.
-Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci permet à un Administrateur de contrôler les étiquettes qui peuvent être affectées aux entrées.",
+"Si le choix est à 'Non', aucune NOUVELLE étiquette ne pourra être créée : ni dans l'espace de
+publication, ni via l'onglet CONTENU : Publier, ni dans un champ de canal personnalisé 'étiquette'.
+Seules les étiquettes existantes pourront être soumises pour un article. Ceci permet à un Administrateur de contrôler les étiquettes qui peuvent être affectées aux articles.",
 
 "tag_module_publish_entry_tag_limit" =>
-"Nombre maximum d'étiquette autorisé par entrée dans l'onglet de Publication",
+"Nombre maximum d'étiquettes autorisées par article dans l'onglet CONTENU : Publier",
 
 'tag_preference_maximum_tags_allowed' =>
-"%n% étiquettes autorisées au maximum",
+"%n% étiquette(s) autorisée(s) au maximum",
 
 "tag_module_enable_tag_form" =>
-"Activer le formulaire d'étiquette pour les visiteurs du site",
+"Activer le formulaire d'étiquette pour les visiteurs du site ?",
 
 "y" =>
 "Oui",
@@ -530,7 +530,7 @@ Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci
 //--------------------------------------------
 
 'viewing_tags_for_group' =>
-"Visualisation des étiquettes pour groupes",
+"Visualisation des étiquettes pour le groupe ",
 
 'view_tags_in_all_groups' =>
 "Voir les étiquettes dans tous les groupes",
@@ -551,10 +551,10 @@ Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci
 "Nom du groupe",
 
 'group_short_name' =>
-"Nom court du groupe",
+"Nom court",
 
 'delete_tag_groups' =>
-"Supprimer des groupes d'étiquette",
+"Supprimer Groupe(s)",
 
 'insert_new_tag_group' =>
 "Insérer un nouveau groupe d'étiquette",
@@ -569,13 +569,13 @@ Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci
 "Limite du nombre d'étiquette atteinte : %num%",
 
 'new_group_name' =>
-"Nouveau nom de groupe",
+"Nom du nouveau groupe",
 
 'short_name' =>
 "Nom court",
 
 'tag_group_subtext' =>
-"Les groupes d'étiquette permettent d'aller au delà de la limite d'un seul champ d'étiquette par canal. Les noms des nouveaux groupes d'étiquette ne peuvent comporter que des lettres, des chiffres et des caractères de soulignement (underscore).",
+"Les groupes d'étiquette permettent d'aller au delà de la limite d'un seul champ d'étiquette par canal. Les noms des nouveaux groupes d'étiquette ne peuvent comporter que des lettres, des chiffres et des soulignés (underscore).",
 
 "tag_group_name_taken" =>
 "Le nom de groupe d'étiquette que vous venez de saisir possède le même nom court qu'un autre groupe déjà existant. Merci de choisir un autre nom pour ce groupe d'étiquette.",
@@ -584,10 +584,10 @@ Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci
 "Tout ouvert",
 
 'all_open_subtext' =>
-"Ceci détermine si les champs 'Suggérer des étiquettes' et 'Top étiquettes' de l'espace de publication sont ouverts par défaut ou non.",
+"Définit si les champs 'Suggérer des étiquettes' et 'Top étiquettes' de l'espace de publication sont tous les deux ouverts par défaut ou non.",
 
 'delete_tag_groups' =>
-"Supprimer des groupes d'étiquette",
+"Supprimer Groupe(s)",
 
 'tag_groups' =>
 "Groupes d'étiquette",
@@ -599,13 +599,13 @@ Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci
 "Nom du groupe",
 
 'tag_group_short_name' =>
-"Nom court du groupe",
+"Nom court",
 
 'locked' =>
 "Verrouillé",
 
 'total_tags_in_group' =>
-"Nombre total d'étiquette dans le groupe",
+"Nombre total d'étiquettes dans le groupe",
 
 'view_group_tags' =>
 "Voir les étiquettes du groupe",
@@ -623,10 +623,10 @@ Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci
 "Groupe(s) d'étiquette supprimé(s) avec succès.",
 
 'create_tag_group' =>
-"Créer un groupe d'étiquette",
+"Créer Groupe",
 
 'update_tag_group' =>
-"Mettre à jour le groupe d'étiquette",
+"Mettre à jour Groupe",
 
 'edit_tag_group' =>
 "Éditer le groupe d'étiquette",
@@ -641,10 +641,10 @@ Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci
 "Les groupes d'étiquette actuellement utilisés dans les champs personnalisés sont verrouillés jusqu'à ce que ce champ soit sorti de son groupe.",
 
 'suggest_from' =>
-"Suggérer des étiquettes et Top étiquettes venant de",
+"Autocompléter, Suggérer des étiquettes et Top étiquettes venant de",
 
 'suggest_from_subtext' =>
-"Normalement, les champs personnalisés d'étiquette ne vont suggérer des étiquettes et montrer des top étiquettes ne provenant que de leur propre groupe de référence. Vous pouvez toutefois utiliser ce paramètre pour suggérer des étiquettes et montrer des top étiquettes provenant de tous les groupes d'étiquette.",
+"Normalement, les champs personnalisés d'étiquette n'afficheront que des résultats autocomplétés, tout comme ils ne vont suggérer des étiquettes et montrer des top étiquettes ne provenant que de leur propre groupe de référence. Vous pouvez toutefois utiliser ce paramètre pour afficher des résultats autocomplétés, suggérer des étiquettes et montrer des top étiquettes provenant de TOUS les groupes d'étiquette.",
 
 'this_group' =>
 "Ce groupe",
@@ -653,25 +653,25 @@ Seules les étiquettes existantes pourront être soumises pour une entrée. Ceci
 "Tous les groupes",
 
 'top_tag_limit' =>
-"Limite du nombre de top étiquette",
+"Limite du nombre de Top étiquettes",
 
 'top_tag_limit_subtext' =>
-"Limite le nombre de top étiquette affiché.",
+"Limite le nombre de Top étiquettes affichées.",
 
 //----------------------------------------
 //	Language for harvest
 //----------------------------------------
 
 'tag_harvest' =>
-"Récolte",
+"Récolter",
 
 'harvest_tags' =>
-"Récolter des étiquettes à partir de champs pré-existants.",
+"Récolter des étiquettes à partir de champs pré-existants",
 
 "tag_harvest_instructions" =>
-"Vous pouvez récolter des données dans votre site soit en créant une correspondance
+"Vous pouvez récolter des données dans votre site, soit en créant une correspondance
 entre les catégories et les étiquettes, soit en transformant le contenu d'un champ personnalisé
-en étiquettes. Dans les deux cas, les entrées seront affectées aux étiquettes récoltées
+en étiquettes. Dans les deux cas, les articles seront affectés aux étiquettes récoltées
 de manière appropriée.",
 
 "categories" =>
@@ -730,40 +730,40 @@ de manière appropriée.",
 //----------------------------------------
 
 "tag_field_instructions_" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec un retour à la ligne.",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec un retour à la ligne.",
 
 "tag_field_instructions_linebreak" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec un retour à la ligne.",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec un retour à la ligne.",
 
 "tag_field_instructions_comma" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec une virgule.",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec une virgule.",
 
 "tag_field_instructions_colon" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec un deux-points.",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec un deux-points.",
 
 "tag_field_instructions_semicolon" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec un point-virgule.",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec un point-virgule.",
 
 "tag_field_instructions_space" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec un espace.",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec un espace.",
 
 "tag_field_instructions_doublepipe" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec une double barre verticale.",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec une double barre verticale.",
 
 "tag_field_instructions_pipe" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec une barre verticale (|).",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec une barre verticale (|).",
 
 "tag_field_instructions_newline" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec un retour chariot.",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec un retour chariot.",
 
 "tag_field_instructions_tilde" =>
-"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre entrée. Séparez chaque étiquette avec un tilde (~).",
+"Utilisez ce champ pour saisir à votre guise les étiquettes pour votre article. Séparez chaque étiquette avec un tilde (~).",
 
 "tag_browser" =>
 "Navigateur d'étiquette",
 
 "tag_browser_instructions" =>
-"Saisissez dans le champ ci-dessous pour rechercher des étiquettes. Cliquer pour ajouter une étiquette à une entrée. Listez toutes les étiquettes disponibles en mettant un astérisque (*).",
+"Saisissez dans le champ ci-dessous pour rechercher des étiquettes. Cliquez pour ajouter une étiquette à un article. Listez toutes les étiquettes disponibles en mettant un astérisque (*).",
 
 "tag_browser_results" =>
 "Résultats de la recherche d'étiquette",
@@ -793,7 +793,7 @@ de manière appropriée.",
 "Étiquettes les plus populaires",
 
 'popular_tags_instructions' =>
-"Cliquer pour ajouter l'étiquette à l'entrée.",
+"Cliquer pour ajouter l'étiquette à l'article.",
 
 
 //----------------------------------------
@@ -801,10 +801,10 @@ de manière appropriée.",
 //----------------------------------------
 
 "missing_entry_id" =>
-"L'ID de l'entrée manque.",
+"L'ID de l'article manque.",
 
 "gallery_entry_not_found" =>
-"L'entrée de galerie spécifiée n'a pas été trouvée.",
+"L'article de galerie spécifié n'a pas été trouvé.",
 
 "no_tags_submitted" =>
 "Aucune étiquette n'a été soumise.",
@@ -843,7 +843,7 @@ de manière appropriée.",
 
 'tag_field_sync_subtext' =>
 "Synchronisez les étiquettes avec le champ personnalisé d'étiquette afin qu'elles puissent être recherchées avec le module Recherche.
-Attention, c'est seulement nécessaire si vous aviez déjà utilisé l'onglet de Publication du module Étiquette.",
+Attention, c'est seulement nécessaire si vous aviez déjà utilisé l'onglet de Publication du module Tag / Étiquette.",
 
 //----------------------------------------
 //	Tag Subscription
@@ -853,13 +853,13 @@ Attention, c'est seulement nécessaire si vous aviez déjà utilisé l'onglet de
 "Vous avez été abonné à l'étiquette avec succès.",
 
 'successful_tag_unsubscribe' =>
-"Vous avez été désabonné à l'étiquette avec succès.",
+"Vous avez été désabonné de l'étiquette avec succès.",
 
 'tag_subscribed' =>
 "Abonné à cette étiquette",
 
 'tag_unsubscribed' =>
-"Désabonné à cette étiquette",
+"Désabonné de cette étiquette",
 
 //----------------------------------------
 //----------------------------------------
@@ -905,16 +905,13 @@ Attention, c'est seulement nécessaire si vous aviez déjà utilisé l'onglet de
 // --------------------------------------------
 
 'update_tag_module' =>
-"Mettre à jour le module Étiquette",
+"Mettre à jour le module Tag / Étiquette",
 
 'tag_update_message' =>
 "Vous avez récemment téléchargé une nouvelle version de Tag / Étiquette, merci de cliquer ici pour exécuter le script de mise à jour.",
 
 'update_successful' =>
 "Succès de la mise à jour !",
-
-'user_update_message' =>
-"Vous avez récemment téléchargé une nouvelle version de User / Utilisateur, merci de cliquer ici pour exécuter le script de mise à jour.",
 
 "upgrade_message" =>
 "Il semble que vous ayez installé une nouvelle version de Tag / Étiquette. Nous vous recommandons d'exécuter le script de mise à jour.",
