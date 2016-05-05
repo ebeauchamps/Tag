@@ -5,10 +5,11 @@
  *
  * @package		Solspace:Tag
  * @author		Solspace, Inc.
- * @copyright	Copyright (c) 2008-2013, Solspace, Inc.
- * @link		http://solspace.com/docs/tag
- * @license		http://www.solspace.com/license_agreement
- * @version		4.2.0
+ * @translator		Emmanuel Beauchamps (Put.itin.red studio, Nantes, France)
+ * @copyright	Copyright (c) 2008-2016, Solspace, Inc.
+ * @link		https://solspace.com/docs/tag
+ * @license		https://solspace.com/software/license-agreement
+ * @version		4.2.9
  * @filesource	tag/language/french/lang.tag.php
  */
 
@@ -74,23 +75,11 @@ $lang = $L = array(
 "add_tags" =>
 "Ajouter des étiquettes",
 
-"total_weblog_entries_tagged" =>
-"Nombre total d'articles de blog étiquetés",
-
-"percent_weblog_entries_tagged" =>
-"Pourcentage des articles de blog étiquetés",
-
 "total_channel_entries_tagged" =>
 "Nombre total d'articles de canal étiquetés",
 
 "percent_channel_entries_tagged" =>
 "Pourcentage des articles de canal étiquetés",
-
-"total_gallery_entries_tagged" =>
-"Nombre total d'articles de galerie étiquetés",
-
-"percent_gallery_entries_tagged" =>
-"Pourcentage des articles de galerie étiquetés",
 
 "top_five_tags" =>
 "Cinq premières étiquettes",
@@ -103,6 +92,9 @@ $lang = $L = array(
 
 "harvest_description" =>
 "Cet outil récoltera automatiquement pour vous les étiquettes à partir d'un champ de canal initialement utilisé pour l'étiquetage ou pour stocker des mots clefs. Ceci permettra de créer des étiquettes à partir de chaque mot et de les séparer par des espaces. Il n'est pas recommandé que vous utilisiez cette fonctionnalité sur des champs qui contiennent des phrases entières (comme les champs Corps, Résumé ou Titre) car vous créeriez alors une étiquette pour chaque mot !",
+
+'harvest_sources_desc' =>
+"Pour récolter les champs étiquettes dans les canaux, vous devez d'abord les définir par canaux dans les préférences.",
 
 //----------------------------------------
 //	Language for tag list
@@ -169,38 +161,17 @@ $lang = $L = array(
 "edit_entries_for_" =>
 "Éditer les articles pour ",
 
-"weblog_entries_by_tag" =>
-"Articles de blog par étiquette",
-
 "channel_entries_by_tag" =>
 "Articles de canal par étiquette",
 
-"gallery_entries_by_tag" =>
-"Articles de galerie par étiquette",
-
-"weblog_entries_by_tag_name" =>
-"Articles de blog pour \"%tag_name%\"",
-
 "channel_entries_by_tag_name" =>
 "Articles de canal pour \"%tag_name%\"",
-
-"gallery_entries_by_tag_name" =>
-"Articles de galerie pour \"%tag_name%\"",
-
-"view_gallery_entries_for_tag" =>
-"Voir les articles de galerie pour cette étiquette.",
-
-"view_weblog_entries_for_tag" =>
-"Voir les articles de blog pour cette étiquette.",
 
 "view_channel_entries_for_tag" =>
 "Voir les articles de canal pour cette étiquette.",
 
 "title" =>
 "Titre",
-
-"gallery" =>
-"Galerie",
 
 "no_entries_found" =>
 "Il n'y a actuellement aucun article pour cette étiquette.",
@@ -377,6 +348,9 @@ $lang = $L = array(
 'tag_field_updated' =>
 "Champ d'étiquette mis à jour",
 
+'press_enter_after_each_tags' =>
+"Faîtes [Entrer] après chaque étiquette",
+
 // -------------------------------------
 //	tag counts
 // -------------------------------------
@@ -430,9 +404,6 @@ $lang = $L = array(
 'channel_switcher' =>
 "Sélecteur de canal",
 
-'weblog_switcher' =>
-"Sélecteur de blog",
-
 "site_preferences" =>
 "Préférences de site",
 
@@ -442,20 +413,11 @@ $lang = $L = array(
 'channel_preferences' =>
 "Préférences de canal",
 
-'weblog_preferences' =>
-"Préférences de blog",
-
 'channel_preferences_for_' =>
 "Préférences de canal pour ",
 
-'weblog_preferences_for_' =>
-"Préférences de blog pour",
-
 'no_channels_for_site' =>
 "Aucun canal pour le site",
-
-'no_weblogs_for_site' =>
-"Aucun blog pour le site",
 
 'tag_preferences_updated' =>
 "Préférences mises à jour",
@@ -524,6 +486,24 @@ Seules les étiquettes existantes pourront être soumises pour un article. Ceci 
 
 'choose_custom_field' =>
 "Choisir un champ personnalisé",
+
+'explode_input_on_separator' =>
+"Séparer des étiquettes multiples avec un délimiteur",
+
+'explode_input_on_separator_subtext' =>
+"Cette option vous permet de saisir en une seule fois des étiquettes multiples dans le champ étiquette, en les séparant par le délimiteur choisi. Par exemple, cette option étant activée et le délimiteur positionné à 'virgule', le fait de saisir 'un, deux, trois' rajoutera 3 étiquettes dans votre champ étiquette : 'un', 'deux' et 'trois'.",
+
+"explode_input_on_separator_note" =>
+"Le texte séparé par un(e) <span class=\"sep\">%sep%</span> sera séparé en étiquettes multiples.",
+
+"select_delimiter" =>
+"Sélectionner le délimiteur : ",
+
+"enable_explode_controls" =>
+"Activer les contrôles utilisateurs pour séparer des étiquettes multiples avec un délimiteur",
+
+"enable_explode_controls_subtext" =>
+"Permet aux utilisateurs d'avoir des contrôles supplémentaires, tel que celui de choisir le délimiteur de texte, lors de l'activation de la préférence ci-dessus.",
 
 //--------------------------------------------
 //	tag groups
@@ -686,17 +666,8 @@ de manière appropriée.",
 'per_batch' =>
 "Taille du lot",
 
-"harvest_from_weblog_categories" =>
-"Catégories de blog",
-
 "harvest_from_channel_categories" =>
 "Catégories de canal",
-
-"harvest_from_gallery_categories" =>
-"Catégories de galerie",
-
-"harvest_from_weblog_tag_field" =>
-"Champs d'étiquette pour les blogs",
 
 "harvest_from_channel_tag_field" =>
 "Champs d'étiquette pour les canaux",
@@ -718,9 +689,6 @@ de manière appropriée.",
 
 'error_invalid_custom_fields_for_channels' =>
 "Erreur : dans vos préférences d'étiquette, un des champs personnalisé de canal est invalide.",
-
-'error_invalid_custom_fields_for_weblogs' =>
-"Erreur : dans vos préférences d'étiquette, un des champs personnalisé de blog est invalide.",
 
 'success_harvest_processing_is_complete' =>
 "Succès ! Le traitement de récolte est achevé !",
@@ -796,15 +764,43 @@ de manière appropriée.",
 "Cliquer pour ajouter l'étiquette à l'article.",
 
 
+// -------------------------------------
+//	separators
+// -------------------------------------
+
+'separator_colon'		=>
+'Deux-points \':\'',
+
+'separator_comma'		=>
+'Virgule \',\'',
+
+'separator_doublepipe'	=>
+'Double barre verticale \'||\'',
+
+'separator_newline'		=>
+'Retour chariot \'\\\n\'',
+
+'separator_pipe'		=>
+'Barre verticale \'|\'',
+
+'separator_semicolon'	=>
+'Point-virgule \';\'',
+
+'separator_space'		=>
+'Espace \' \'',
+
+'separator_tab'			=>
+'Tabulation \'\\\t\'',
+
+'separator_tilde'		=>
+'Tilde \'~\'',
+
 //----------------------------------------
 //	Language for insert tags
 //----------------------------------------
 
 "missing_entry_id" =>
 "L'ID de l'article manque.",
-
-"gallery_entry_not_found" =>
-"L'article de galerie spécifié n'a pas été trouvé.",
 
 "no_tags_submitted" =>
 "Aucune étiquette n'a été soumise.",
@@ -873,7 +869,7 @@ Attention, c'est seulement nécessaire si vous aviez déjà utilisé l'onglet de
 "Membre",
 
 "search" =>
-"Recherche",
+"Rechercher",
 
 "edit" =>
 "Éditer",
